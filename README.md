@@ -141,4 +141,5 @@ git push -u origin main
 
 刷新后，可以看到我们在本地创建的“README.md”文件显示在github中“learn-git”这个仓库里了。
 
-![image-20230223164934159](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223164934159.png)
+![](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223165517901.png)
+如果您完成了以上全部的步骤，恭喜，您又学会了一项新技能！
