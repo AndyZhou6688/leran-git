@@ -1,4 +1,3 @@
-git的基本用法
 # git的基本用法
 
 ## 一、把本地仓库（文件夹）放进git管辖
@@ -53,13 +52,31 @@ PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Stud
 
 ![image-20230223160820770](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223160820770.png)
 
-### 第8步：把经过编辑的README.md提交到git管辖
+### 第8步：把经过编辑的README.md提交到git的工作区
 
-使用命令：git commit，把刚刚我们编辑过的README.md文件提交给git管辖，命令行界面会弹出关于本次提交的说明信息
+使用命令：git add .（注意，add后面有一个英文标点状态下“.”），把刚刚我们编辑过的README.md文件提交至git工作区。
 
 说明：提交之后，可以再用git status命令查看git的状态，观察前后的变化
 
-![image-20230223160847289](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223160847289.png)
+![image-20230227145245131](https://gitee.com/andy116688/Typora/raw/master/img/image-20230227145245131.png)
+
+![image-20230227145658726](https://gitee.com/andy116688/Typora/raw/master/img/image-20230227145658726.png)
+
+### 第9步：把经过编辑的README.md提交到git管辖
+
+使用命令：git commit，把刚刚我们编辑过的README.md文件提交给git管辖，命令行界面会弹出关于本次提交的说明信息
+
+![image-20230227145929523](https://gitee.com/andy116688/Typora/raw/master/img/image-20230227145929523.png)
+
+### 第10步：在弹出来的Vs Code中填写修改备注
+
+![image-20230227145843705](https://gitee.com/andy116688/Typora/raw/master/img/image-20230227145843705.png)
+
+在命令行输入“git commit”命令后，系统会自动跳转到Vs Code界面，我们需要在第一行填写本次修改的备注信息，例如我在这里填写的是“the second edition”，然后关闭Vs Code界面。
+
+关闭Vs Code界面之后，回到命令行界面，再用git status命令查看git的状态，观察前后的变化。
+
+![image-20230227165627148](https://gitee.com/andy116688/Typora/raw/master/img/image-20230227165627148.png)
 
 ## 在github建一个远程仓库
 
@@ -141,5 +158,6 @@ git push -u origin main
 
 刷新后，可以看到我们在本地创建的“README.md”文件显示在github中“learn-git”这个仓库里了。
 
-![](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223165517901.png)
+![image-20230223165517901](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223165517901.png)
+
 如果您完成了以上全部的步骤，恭喜，您又学会了一项新技能！
