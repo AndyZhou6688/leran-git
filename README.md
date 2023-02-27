@@ -49,7 +49,7 @@ PS C:\Users\Andy> git config --core.editor "code -w"  （说明：把Visual Stud
 
 ### 第7步：创建一个README.md的文件
 
-使用命令code README.md创建一个文件夹，命名为“[README.md](http://README.md)”, 按回车，启动Vs Code，在Vs Code界面下输入内容，然后保存，关闭Vs Code
+使用命令code README.md创建一个文件，命名为“[README.md](http://README.md)”, 按回车，启动Vs Code，在Vs Code界面下输入内容，然后保存，关闭Vs Code
 
 ![image-20230223160820770](https://gitee.com/andy116688/Typora/raw/master/img/image-20230223160820770.png)
 
